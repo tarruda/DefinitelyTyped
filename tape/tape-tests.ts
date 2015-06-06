@@ -2,7 +2,7 @@
 
 /// <reference path="../node/node.d.ts" />
 
-import tape = require('tape');
+import tape from 'tape';
 
 var x: any;
 var value: any;
