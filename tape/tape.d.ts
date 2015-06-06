@@ -6,7 +6,7 @@
 /// <reference path="../node/node.d.ts" />
 
 declare module 'tape' {
-	export = tape;
+	export default tape;
 
 	/**
 	 * Create a new test with an optional name string. cb(t) fires with the new test object t once all preceeding tests have finished. Tests execute serially.
