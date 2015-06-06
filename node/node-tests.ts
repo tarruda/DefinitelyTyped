@@ -1,17 +1,17 @@
 /// <reference path="node.d.ts" />
 
-import assert = require("assert");
-import fs = require("fs");
-import events = require("events");
-import zlib = require("zlib");
-import url = require('url');
-import util = require("util");
-import crypto = require("crypto");
-import http = require("http");
-import net = require("net");
-import dgram = require("dgram");
-import querystring = require('querystring');
-import path = require("path");
+import assert from "assert";
+import fs from "fs";
+import events from "events";
+import zlib from "zlib";
+import url from 'url';
+import util from "util";
+import crypto from "crypto";
+import http from "http";
+import net from "net";
+import dgram from "dgram";
+import querystring from 'querystring';
+import path from "path";
 
 assert(1 + 1 - 2 === 0, "The universe isn't how it should.");
 
