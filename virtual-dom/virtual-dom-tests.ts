@@ -1,5 +1,5 @@
 /// <reference path="virtual-dom.d.ts" />
-import virtual_dom = require("virtual-dom");
+import virtual_dom from "virtual-dom";
 import VNode = virtual_dom.VNode;
 import h = virtual_dom.h;
 
